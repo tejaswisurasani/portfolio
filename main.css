@@ -1,0 +1,298 @@
+
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Cabin+Sketch|Mogra|Playball');
+body {
+background-color: #1F081F;
+background-image: url("https://image.freepik.com/free-vector/abstract-background-with-a-geometric-design_1048-3422.jpg");
+
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: cover;
+}
+header {
+padding: 20px 15px;
+}
+#logo {
+  text-align: left;
+  padding: 20px;
+  float: inherit;
+  margin-right: 5px;
+width: 5px;
+height: 5px;
+background-color: #D86101;
+  display: inline-block;
+  font-size: 1em;
+}
+#logo li{
+  position: absolute;
+  float: left;
+  padding: -100px -5px;
+  color: black;
+  padding-bottom: 325px;
+
+}
+#logo:disabled {
+    background: #D86101;
+}
+
+
+#top-nav {
+
+    float: right;
+  display: inline-block;
+}
+#top-nav a {
+  display: inline-block;
+  color: #fff;
+  font-family: fantasy;
+  text-decoration: none;
+  padding: 25px 15px;
+}
+#top-nav a:hover {
+  color: #BFA246;
+text-decoration: none;
+  padding: 0px 15px;
+}
+.jumbo{
+  padding: 150px 0;
+}
+.jumbo h1{
+  padding-top: .2cm;
+
+  padding: .2cm;
+  font-family: 'Mogra', cursive;
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 600;
+  border: 1px solid black;
+  outline: 5px dotted #405952;
+  word-spacing: 20px;
+
+  }
+  .jumbo h2{
+    padding-top: 1cm;
+    text-align: center;
+    font-family: 'Times New Roman', times;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    white-space: pre-line;
+
+  }
+  .jumbo h3{
+    padding-top: -10cm;
+
+    text-align: center;
+    font-family: 'Times New Roman', times;
+    color: #fff;
+    font-size: 55px;
+    font-weight: 400;
+    white-space: pre-line;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.jumbo p{
+  padding-top: -0.2cm;
+  text-align: center;
+  font-family: 'Times New Roman', times;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 400;
+  white-space: pre-line;
+  padding-right: 10px;
+}
+.work{
+  padding: 80px 100px;
+  text-align: center;
+  padding-left: 150px;
+margin-left: 1px;
+}
+.work .box{
+display: block;
+  float: left;
+  background: #fff;
+  width: 250px;
+  height: 250px;
+margin: 25px 29px;
+flex-direction: column;
+overflow: hidden;
+cursor: pointer;
+
+}
+.work .box:hover .hoverBox{
+  opacity: 1;
+  left: 0;
+}
+.work .box .hoverBox{
+  background: rgba(248, 205, 162, .9);
+  position: relative;
+  left: -100%;
+  height: 100%;
+  position: 100%;
+  transition: all .7s ease;
+  padding: 25px 15px;
+  text-align: center;
+  opacity: 0;
+
+}
+.work .box .hoverBox h3{
+  color: black;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-decoration: underline;
+font-size: 35px;
+text-align: center;
+}
+.work .box .hoverBox h4{
+  color: black;
+  font-size: -1.5rem;
+text-decoration: underline;
+text-align: center;
+
+}
+.skill{
+  padding: 20px 50px;
+  text-align: center;
+}
+.button{
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+  display: inline-flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.skill .button {
+    background-color: #273842; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+.skill .button:hover {
+
+  background: rgba(126, 139, 111, 0.5);
+
+}
+
+
+
+.jumbo h5{
+  padding-top: 2cm;
+  text-align: center;
+  font-family: 'Times New Roman', times;
+  color: #fff;
+  font-size: 45px;
+  font-weight: 400;
+  white-space: pre-line;
+
+}
+.contact h5{
+  font-size: 55px;
+  font-weight: bolder;
+  margin-left: -10px;
+  margin-left: -75px;
+display: inline;
+margin-top: 100px;
+}
+.contact{
+  padding: 20px 100px;
+  text-align: center;
+  color: #fff;
+  white-space: pre;
+line-height: 20px;
+font-size: 20px;
+display: inline-block;
+padding-top: 40px;
+font-weight: bolder;
+}
+.contact p{
+  padding-bottom: -10px;
+  padding-top: -50px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: -10px;
+}
+.contact a{
+  padding: 30px 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  background: #75696C;
+  align-items: center;
+padding-bottom: 10px;
+padding-top: 10px;
+margin-right: 75px;
+}
+
+#footer {
+  width: auto;
+  height: 70px;
+  background: rgba(216, 97, 1, 0.5);
+  line-height: 150px;
+background-position: bottom;
+padding-top: 40px;
+padding-left: 8px;
+margin-top: 100px;
+}
+
+#footer h6{
+  color: white;
+  float: inherit;
+  margin-right: 25px;
+  font-weight: 200;
+  font-size: 18px;
+  padding-left: 20px;
+padding-bottom: 100px;
+
+}
+
+
+
+#bottom-nav ul{
+float: inherit;
+background: rgba(216, 97, 1, 0.5);
+padding-top: -190cm;
+padding-bottom: 10px;
+}
+#bottom-nav ul li{
+display: inline-block;
+list-style-type: none;
+font-size: 16px;
+}
+#bottom-nav ul li a{
+text-decoration: none;
+color: #F2B705;
+padding: 10px;
+}
+#icon{
+  font-size: 25px;
+}
+#icon2{
+  font-size: 25px;
+}
+#icon3{
+  font-size: 25px;
+}
+#icon:hover{
+  color: #7E8B6F;
+  transition: all ease-in-out 0.40s;
+}
+#icon2:hover{
+  color: #7E8B6F;
+  transition: all ease-in-out 0.40s;
+}
+#icon3:hover{
+  color: #7E8B6F;
+  transition: all ease-in-out 0.40s;
+}
